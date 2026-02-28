@@ -1,4 +1,35 @@
- <!DOCTYPE html>
+# Paardekraal — Namaqualand Guest House
+
+Private off-grid guest house for two, near Springbok, Northern Cape. No signal. Just the veld.
+
+## Deploy to Vercel
+
+1. Copy the code below into a file called `index.html`
+2. Go to [vercel.com](https://vercel.com) → **Add New Project**
+3. Drag and drop the `index.html` file
+4. Click **Deploy** — done ✓
+
+## Edit Before Deploying
+
+Search the code for these placeholders and replace them:
+
+| Placeholder | Replace with |
+|---|---|
+| `+27 00 000 0000` | Your phone number |
+| `stay@paardekraal.co.za` | Your email address |
+| `R 950` | Your nightly rate |
+| `[road name]` | Actual road name |
+| `[landmark / gate description]` | How to find the gate |
+| `−29.°S · 17.°E` | Your real GPS coordinates |
+
+---
+
+## Website Code
+
+Copy everything between the fences into `index.html`:
+
+```html
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -430,3 +461,4 @@ footer { background: var(--night); padding: 4rem 2.5rem 3rem; text-align: center
 
 </body>
 </html>
+```
